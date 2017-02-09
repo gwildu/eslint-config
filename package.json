@@ -1,0 +1,33 @@
+{
+  "name": "gwi-eslint-config",
+  "version": "1.0.0",
+  "description": "A reusable eslint config for node.js projects based on standard with vue.js support",
+  "main": "index.js",
+  "scripts": {
+    "test:lint": "eslint **/**.js",
+    "test": "npm run test:lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwildu/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "node.js"
+  ],
+  "author": "@gwildu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwildu/eslint-config/issues"
+  },
+  "homepage": "https://github.com/gwildu/eslint-config#readme",
+  "dependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-vue": "^2.0.1"
+  }
+}
